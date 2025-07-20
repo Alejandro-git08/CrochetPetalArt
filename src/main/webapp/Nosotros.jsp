@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Insert title here</title>
+	<title>Nosotros</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -71,50 +71,54 @@
         		<!-- Integrante 1 -->
         		<div class="col-md-4 col-lg-2 mb-4">
         			<div class="card border-0 shadow-sm">
-            			<img src="img/integrante1.jpg" class="card-img-top" alt="Integrante 1">
+            			<img src="img/jorshua.jpg" class="card-img-top" alt="Integrante 1">
                 		<div class="card-body">
-                			<h5 class="card-title">Nombre 1</h5>
-                    		<p class="card-text">Cédula: 0000000000</p>
+                			<h5 class="card-title">Jorshua Jiménez</h5>
+                    		<p class="card-text">Cédula: 8-1026-2297</p>
                 		</div>
             		</div>
 				</div>
+				
 				<!-- Integrante 2 -->
         		<div class="col-md-4 col-lg-2 mb-4">
         			<div class="card border-0 shadow-sm">
-            			<img src="img/integrante1.jpg" class="card-img-top" alt="Integrante 1">
+            			<img src="img/sebastian.jpg" class="card-img-top" alt="Integrante 2">
                 		<div class="card-body">
-                			<h5 class="card-title">Nombre 1</h5>
-                    		<p class="card-text">Cédula: 0000000000</p>
+                			<h5 class="card-title">Sebastian Mejía</h5>
+                    		<p class="card-text">Cédula: 4-816-1428</p>
                 		</div>
             		</div>
 				</div>
+				
 				<!-- Integrante 3 -->
         		<div class="col-md-4 col-lg-2 mb-4">
         			<div class="card border-0 shadow-sm">
-            			<img src="img/integrante1.jpg" class="card-img-top" alt="Integrante 1">
+            			<img src="img/ariel.jpg" class="card-img-top" alt="Integrante 3">
                 		<div class="card-body">
-                			<h5 class="card-title">Nombre 1</h5>
-                    		<p class="card-text">Cédula: 0000000000</p>
+                			<h5 class="card-title">Ariel Montoya</h5>
+                    		<p class="card-text">Cédula: 8-1019-1143</p>
                 		</div>
             		</div>
 				</div>
+				
 				<!-- Integrante 4 -->
         		<div class="col-md-4 col-lg-2 mb-4">
         			<div class="card border-0 shadow-sm">
-            			<img src="img/integrante1.jpg" class="card-img-top" alt="Integrante 1">
+            			<img src="img/diego.jpg" class="card-img-top" alt="Integrante 4">
                 		<div class="card-body">
-                			<h5 class="card-title">Nombre 1</h5>
-                    		<p class="card-text">Cédula: 0000000000</p>
+                			<h5 class="card-title">Diego Portugal</h5>
+                    		<p class="card-text">Cédula: 8-972-2106</p>
                 		</div>
             		</div>
 				</div>
+				
 				<!-- Integrante 5 -->
         		<div class="col-md-4 col-lg-2 mb-4">
         			<div class="card border-0 shadow-sm">
-            			<img src="img/integrante1.jpg" class="card-img-top" alt="Integrante 1">
+            			<img src="img/alejandro.jpg" class="card-img-top" alt="Integrante 5">
                 		<div class="card-body">
-                			<h5 class="card-title">Nombre 1</h5>
-                    		<p class="card-text">Cédula: 0000000000</p>
+                			<h5 class="card-title">Alejandro Santos</h5>
+                    		<p class="card-text">Cédula: 8-996-1474</p>
                 		</div>
             		</div>
 				</div>
