@@ -1,0 +1,218 @@
+/* Estilos personalizados para Crochet's Petal Art */
+
+:root {
+  --primary-color: #e91e63;
+  --secondary-color: #9c27b0;
+  --accent-color: #673ab7;
+  --light-pink: #fce4ec;
+  --light-purple: #f3e5f5;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, var(--light-pink) 0%, var(--light-purple) 100%);
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.brand-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-title {
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.search-form {
+  width: 400px;
+}
+
+.search-form .form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(233, 30, 99, 0.25);
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, rgba(252, 228, 236, 0.8), rgba(243, 229, 245, 0.8));
+}
+
+.hero-title {
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.min-vh-50 {
+  min-height: 50vh;
+}
+
+/* Button Styles */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #d81b60, #8e24aa);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(233, 30, 99, 0.3);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:checked + .btn-outline-primary,
+.btn-outline-primary.active {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border-color: var(--primary-color);
+}
+
+/* Category Filters */
+.category-filters .btn-check:checked + .btn {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  border-color: var(--primary-color);
+}
+
+/* Product Cards */
+.product-card {
+  transition: all 0.3s ease;
+  border: 1px solid rgba(233, 30, 99, 0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(233, 30, 99, 0.15);
+  border-color: var(--primary-color);
+}
+
+.product-image {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+/* Badges */
+.badge.bg-light {
+  background-color: rgba(233, 30, 99, 0.1) !important;
+  color: var(--primary-color) !important;
+}
+
+/* Cart Badge */
+#cart-count {
+  font-size: 0.7rem;
+}
+
+/* Modal Styles */
+.modal-header {
+  background: linear-gradient(135deg, var(--light-pink), var(--light-purple));
+  border-bottom: 1px solid rgba(233, 30, 99, 0.1);
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(233, 30, 99, 0.25);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(135deg, #2c3e50, #34495e) !important;
+}
+
+footer .brand-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.producto-item {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .search-form {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .hero-section {
+    padding: 40px 0;
+  }
+
+  .category-filters {
+    flex-wrap: wrap;
+  }
+
+  .category-filters .btn {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Loading Animation */
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Stock Warning */
+.badge.bg-warning {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
