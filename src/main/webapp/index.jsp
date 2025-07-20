@@ -271,7 +271,7 @@
                         <li><a href="envios.jsp" class="text-muted text-decoration-none">Envíos</a></li>
                         <li><a href="devoluciones.jsp" class="text-muted text-decoration-none">Devoluciones</a></li>
                         <li><a href="soporte.jsp" class="text-muted text-decoration-none">Soporte</a></li>
-                        <li><a href="fqa.jsp" class="text-muted text-decoration-none">FAQ</a></li>
+                        <li><a href="faq.jsp" class="text-muted text-decoration-none">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -281,7 +281,7 @@
                         <p><i class="fas fa-phone me-2"></i>+507 1234-5678</p>
                         <p><i class="fas fa-map-marker-alt me-2"></i>Panamá, Panamá</p>
                         <ul class="list-unstyled">
-                        	<li><a href="Nosotros.jsp" class="text-muted text-decoration-none">Nosotros</a></li>
+                        	<li><a href="nosotros.jsp" class="text-muted text-decoration-none">Nosotros</a></li>
                         </ul>	
                     </div>
                 </div>

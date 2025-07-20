@@ -1,17 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nosotros</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Preguntas Frecuentes (FAQ) - Crochet's Petal Art</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
-
+	
 	<!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
         <div class="container">
@@ -61,73 +60,65 @@
             </div>
         </div>
     </nav>
-    
-    <!-- Sección Sobre Nosotros -->
-	<section class="py-5 bg-light">
-   		<div class="container text-center">
-        	<h2 class="mb-5">Sobre Nosotros</h2>
-        	<div class="row justify-content-center">
+	
+    <main class="container py-5">
+        <h1 class="mb-4">Preguntas Frecuentes (FAQ)</h1>
         
-        		<!-- Integrante 1 -->
-        		<div class="col-md-4 col-lg-2 mb-4">
-        			<div class="card border-0 shadow-sm">
-            			<img src="img/jorshua.jpg" class="card-img-top" alt="Integrante 1">
-                		<div class="card-body">
-                			<h5 class="card-title">Jorshua Jiménez</h5>
-                    		<p class="card-text">Cédula: 8-1026-2297</p>
-                		</div>
-            		</div>
-				</div>
-				
-				<!-- Integrante 2 -->
-        		<div class="col-md-4 col-lg-2 mb-4">
-        			<div class="card border-0 shadow-sm">
-            			<img src="img/sebastian.jpg" class="card-img-top" alt="Integrante 2">
-                		<div class="card-body">
-                			<h5 class="card-title">Sebastian Mejía</h5>
-                    		<p class="card-text">Cédula: 4-816-1428</p>
-                		</div>
-            		</div>
-				</div>
-				
-				<!-- Integrante 3 -->
-        		<div class="col-md-4 col-lg-2 mb-4">
-        			<div class="card border-0 shadow-sm">
-            			<img src="img/ariel.jpg" class="card-img-top" alt="Integrante 3">
-                		<div class="card-body">
-                			<h5 class="card-title">Ariel Montoya</h5>
-                    		<p class="card-text">Cédula: 8-1019-1143</p>
-                		</div>
-            		</div>
-				</div>
-				
-				<!-- Integrante 4 -->
-        		<div class="col-md-4 col-lg-2 mb-4">
-        			<div class="card border-0 shadow-sm">
-            			<img src="img/diego.jpg" class="card-img-top" alt="Integrante 4">
-                		<div class="card-body">
-                			<h5 class="card-title">Diego Portugal</h5>
-                    		<p class="card-text">Cédula: 8-972-2106</p>
-                		</div>
-            		</div>
-				</div>
-				
-				<!-- Integrante 5 -->
-        		<div class="col-md-4 col-lg-2 mb-4">
-        			<div class="card border-0 shadow-sm">
-            			<img src="img/alejandro.jpg" class="card-img-top" alt="Integrante 5">
-                		<div class="card-body">
-                			<h5 class="card-title">Alejandro Santos</h5>
-                    		<p class="card-text">Cédula: 8-996-1474</p>
-                		</div>
-            		</div>
-				</div>
-				
-        	</div>
-    	</div>
-	</section>
-    
-    
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq1-heading">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                        ¿Cuánto tarda el envío?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        El envío nacional dentro de Panamá tarda entre 2 y 5 días hábiles, dependiendo de la ubicación y disponibilidad.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq2-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                        ¿Puedo cambiar un producto después de comprarlo?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Sí, puedes solicitar una devolución o cambio dentro de los 7 días posteriores a la entrega, siempre que el producto esté en condiciones originales.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq3-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                        ¿Cómo cuido mis arreglos florales de crochet?
+                    </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Los arreglos de crochet son duraderos y no necesitan agua ni luz solar. Solo evítalos en contacto con polvo excesivo o humedad directa.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faq4-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                        ¿Cómo puedo contactarlos para soporte?
+                    </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Puedes contactarnos a través del formulario en la página de Soporte, por correo a soporte@crochetspetal.com, o llamándonos al +507 1234-5678.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+	
 	<!-- Footer -->
     <footer class="bg-dark text-white py-5 mt-5">
         <div class="container">
@@ -156,7 +147,7 @@
                         <li><a href="envios.jsp" class="text-muted text-decoration-none">Envíos</a></li>
                         <li><a href="devoluciones.jsp" class="text-muted text-decoration-none">Devoluciones</a></li>
                         <li><a href="soporte.jsp" class="text-muted text-decoration-none">Soporte</a></li>
-                        <li><a href="fqa.jsp" class="text-muted text-decoration-none">FAQ</a></li>
+                        <li><a href="faq.jsp" class="text-muted text-decoration-none">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -166,7 +157,7 @@
                         <p><i class="fas fa-phone me-2"></i>+507 1234-5678</p>
                         <p><i class="fas fa-map-marker-alt me-2"></i>Panamá, Panamá</p>
                         <ul class="list-unstyled">
-                        	<li><a href="Nosotros.jsp" class="text-muted text-decoration-none">Nosotros</a></li>
+                        	<li><a href="nosotros.jsp" class="text-muted text-decoration-none">Nosotros</a></li>
                         </ul>	
                     </div>
                 </div>
@@ -177,7 +168,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
